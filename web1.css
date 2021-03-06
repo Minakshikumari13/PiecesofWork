@@ -1,0 +1,233 @@
+body{
+    margin: 0px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    
+}
+
+#sk{
+    position: absolute;
+    background-color: white;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 556px;
+    animation-name: bg;
+    animation-iteration-count: infinite;
+    animation-duration: 6s;
+}
+
+@keyframes bg 
+{
+    1%{
+        background-color: rgb(73, 73, 80);
+        
+    }
+    5%{
+        background-color: rgb(77, 79, 83);
+    }
+    10%{
+        background-color: rgb(91, 113, 161);
+    }
+    20%{
+        background-color: rgb(91, 113, 191);
+    }
+    30%{
+        background-color: rgb(91, 113, 231);
+    }
+    40%{
+        background-color: rgb(91, 113, 261);
+    }
+    50%{
+        background-color: rgb(82, 93, 115);
+    }
+    60%{
+        background-color: rgb(46, 51, 61);
+    }
+    
+    70%{
+        background-color: rgb(33, 34, 35);
+    }
+    80%{
+        background-color: rgb(32, 33, 36);
+    }
+    100%{
+        background-color: rgb(22, 22, 24);
+    }
+}
+
+#gr{
+    position: absolute;
+    background-color: rgb(20, 139, 50);
+    bottom: 0%;
+    left: 0%;
+    height: 200px;
+    width: 100%;
+}
+
+
+
+
+
+#cl2{
+    position: absolute;
+    /* background-image: url(/cloud2.anm.png);  */
+    top: 12%;
+    right: 100%;
+    height: 266px;
+    width: 250px;
+    object-fit: contain;
+    animation-name: cl2;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    
+
+
+}
+
+@keyframes cl2
+{
+    100%{
+        transform: translateX(2100px);
+    }
+    
+}
+
+
+
+
+#cl4{
+    position: absolute;
+    /* background-image: url(/cloud2.anm.png); */
+    /* height: 266px; */
+    /* width: 409px; */
+    top: 10%;
+    right: 100%;
+    height: 266px;
+    width: 250px;
+    object-fit: contain;
+    animation-name: cl4;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-delay: .2s;
+
+}
+
+@keyframes cl4
+{
+    100%{
+        transform: translateX(2100px);
+    }
+    
+}
+
+#sun{
+    position: absolute;
+    background-image: url(/Sunp.png);
+    bottom: 50%;
+    left: 90%;
+    height:262px ;
+    width: 288px;
+    animation-name: sun;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    /* animation-timing-function: ease-in-out; */
+}
+
+@keyframes sun 
+{
+    
+    /* 50%{
+        transform: translate(-700px, -120px);
+    } */
+    100%{
+        transform: translate(-1880px,-95px);
+        
+    }
+}
+
+
+
+
+
+
+
+#car
+{
+    position: absolute;
+    bottom: 15%;
+    right: 100%;
+    object-fit: contain;
+    height: 300px;
+    width: 500px;
+    animation-name: car;
+    animation-duration: 4.5s;
+    animation-iteration-count: infinite;
+    z-index: 1;
+}
+
+@keyframes car 
+{
+    
+    100%{
+        transform: translateX(2200px);
+    }
+}
+
+
+#r{
+    position: absolute;
+    background-image: url(/road1.jpg);
+    height: 120px;
+    width: 200%; 
+    bottom: 15%;
+    animation-name: road;
+    animation-duration: .2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes road
+{
+    100%{
+        transform: translateX(-20px);
+    }
+}
+
+#g{
+    position: static;
+    background-color: green;
+    /* bottom: 0%; 
+    left: 0%; */
+    height:600px ;
+    width: 100%;
+    z-index: 4;
+}
+
+
+ #moon{
+    position: absolute;
+    right: 0%;
+    top: 15%;
+    /* right: 0px;  */
+    height: 150px;
+    width: 150px;
+    object-fit: none;
+    border: 10px;
+    border-radius: 50%;
+    animation-name: m;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-delay: 3s;
+    visibility: hidden;
+    
+
+}
+
+@keyframes m 
+{
+    100%{
+        transform: translate(-900px, -45px);
+        visibility: visible;
+    }
+    
+} 
