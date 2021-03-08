@@ -174,22 +174,23 @@ body{
 
 
 #r{
-    position: absolute;
-/*     background-image: url(road1.jpg);  */
-    height: 120px;
-    width: 200%; 
-    bottom: 15%;
-    animation-name: road;
-    animation-duration: .2s;
-    animation-iteration-count: infinite;
+            position: absolute;
+            height: 100px;
+            width: 110%; 
+            bottom: 15%;
+            animation-name: road;
+            animation-duration: .2s;
+            animation-iteration-count: infinite;
+            
 }
 
 @keyframes road
-{
-    100%{
-        transform: translateX(-20px);
-    }
-}
+          {
+            100%{
+                 transform: translateX(-40px);
+                 }
+           }
+        
 
 #g{
     position: static;
