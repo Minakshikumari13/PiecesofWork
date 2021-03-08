@@ -137,9 +137,7 @@ body{
 @keyframes sun 
 {
     
-    /* 50%{
-        transform: translate(-700px, -120px);
-    } */
+    
     100%{
         transform: translate(-1000px,-75px);
         
