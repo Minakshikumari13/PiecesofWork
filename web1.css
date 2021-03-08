@@ -124,7 +124,7 @@ body{
 #sun{
     position: absolute;
 /*     background-image: url(Sunp.png);  */
-    bottom: 50%;
+    bottom: 40%;
     left: 90%;
     height:262px ;
     width: 288px;
@@ -141,7 +141,7 @@ body{
         transform: translate(-700px, -120px);
     } */
     100%{
-        transform: translate(-1880px,-95px);
+        transform: translate(-1880px,-75px);
         
     }
 }
