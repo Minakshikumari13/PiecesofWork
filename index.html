@@ -6,6 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Web1</title>
     <link rel="stylesheet" href="web1.css">
+    <style>
+        #r{
+            position: absolute;
+            height: 100px;
+            width: 110%; 
+            bottom: 15%;
+            animation-name: road;
+            animation-duration: .2s;
+            animation-iteration-count: infinite;
+            
+}
+
+      @keyframes road
+          {
+            100%{
+                 transform: translateX(-40px);
+                 }
+          }
+        
+      </style>
 </head>
 <body>
     <div id="sk"></div>
@@ -17,7 +37,7 @@
     <!-- <div id="cl4"></div>  -->
     <img src="cloud2.anm.png" alt="cl" id="cl4">
     <div id="sun">
-    <img src="Sunp.png" alt="moon" id="sun"> 
+    <img src="Sunp.png" alt="moon" id="sun" style="position:absolute;" > 
     </div>
     <div id="moon">
         <img src="moon1.png" alt="moon" id="moon"> 
@@ -27,11 +47,14 @@
     <!-- <div id="car"></div>  -->
    
     <img src="car1m.png" alt="car" id="car">
+    <div >
+        <img src="/road1.jpg" alt="road" id="r" >
+    </div>
     
    
     
     
-    <img src="road1.png" alt="road" id="r"> 
+<!--     <img src="road1.png" alt="road" id="r">  -->
     
     <div id="g"></div>
     
